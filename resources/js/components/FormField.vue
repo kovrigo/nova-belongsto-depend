@@ -185,4 +185,8 @@ export default {
 .multiselect__select:before {
     content: none !important;
 }
+
+.multiselect--disabled .multiselect__current, .multiselect--disabled .multiselect__select {
+    background: none!important;
+}
 </style>
